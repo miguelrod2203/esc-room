@@ -12,12 +12,10 @@ export const Navbar = () => {
     }
 
 
-
     return (
-        <header>
-
+        <header className="z-10 w-full fixed">
             <nav className="bg-gray-700 border-b-2 border-yellow-300">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
                     <div className="flex items-center">
                         <a href="/">
                             <img className="h-10 w-auto mr-1 rounded-xl" src="../../imagenes/logo5.jpeg" alt="Logo"/>
@@ -39,9 +37,6 @@ export const Navbar = () => {
                     </div>
                 </div>
             </nav>
-
-
-
         </header>
     )
 }

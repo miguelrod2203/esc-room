@@ -1,5 +1,6 @@
 import './App.css';
-import { Navbar } from './componentes/NavBar/NavBar';
+import { BannerInicio } from './Componentes/BannerInicio/BannerInicio';
+import { Navbar } from './Componentes/NavBar/NavBar';
 
 
 
@@ -7,9 +8,13 @@ import { Navbar } from './componentes/NavBar/NavBar';
 
 function App() {
   return (
-    <Navbar />
-    
+    <div>
+      <Navbar />
+      <BannerInicio />
 
+
+      
+    </div>
 
 
 
