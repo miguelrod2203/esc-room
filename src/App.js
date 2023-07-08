@@ -1,6 +1,7 @@
 import './App.css';
-import { BannerInicio } from './Componentes/BannerInicio/BannerInicio';
-import { Navbar } from './Componentes/NavBar/NavBar';
+import { BannerInicio } from './Components/BannerInicio/BannerInicio';
+import { Navbar } from './Components/NavBar/NavBar';
+import { SeccionQueEs } from './Components/SeccionQueEs/SeccionQueEs';
 
 
 
@@ -11,7 +12,7 @@ function App() {
     <div>
       <Navbar />
       <BannerInicio />
-
+      <SeccionQueEs />
 
       
     </div>
