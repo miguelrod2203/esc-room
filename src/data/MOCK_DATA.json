@@ -8,9 +8,9 @@
         "jugadores": "2 a 7 Personas",
         "dificultad": "8/10",
         "resumen": "Un espia aleman y un submarino con poco oxigeno... puedes escapar para contarlo?",
-        "precio1-2": 16000,
-        "precio3-4": 14000,
-        "precio5-6": 12000,
+        "precio12": 16000,
+        "precio34": 14000,
+        "precio56": 12000,
         "precio7": 12000
     },
     {
@@ -22,9 +22,9 @@
         "jugadores": "2 a 7 Personas",
         "dificultad": "9/10",
         "resumen": "Unas vacaciones de infarto, alquilaste una cabaña, con tus amigos y maldicion incluida... ¿podran volver a tener paz?",
-        "precio1-2": 16000,
-        "precio3-4": 14000,
-        "precio5-6": 12000,
+        "precio12": 16000,
+        "precio34": 14000,
+        "precio56": 12000,
         "precio7": 12000
     },
     {
@@ -36,9 +36,9 @@
         "jugadores": "2 a 7 Personas",
         "dificultad": "9/10",
         "resumen": "Atrapado al fondo de una mina... ¿puedes encontrar la forma de escapar?",
-        "precio1-2": 16000,
-        "precio3-4": 14000,
-        "precio5-6": 12000,
+        "precio12": 16000,
+        "precio34": 14000,
+        "precio56": 12000,
         "precio7": 12000
     },
     {
@@ -50,9 +50,9 @@
         "jugadores": "2 a 7 Personas",
         "dificultad": "7/10",
         "resumen": "Un crimen y 3 sospechosos a bordo... ¿puedes identificar al culpable antes de llegar a la estacion",
-        "precio1-2": 16000,
-        "precio3-4": 14000,
-        "precio5-6": 12000,
+        "precio12": 16000,
+        "precio34": 14000,
+        "precio56": 12000,
         "precio7": 12000
     },
     {
@@ -64,9 +64,9 @@
         "jugadores": "2 a 7 Personas",
         "dificultad": "8/10",
         "resumen": "Un virus mortal contamina todo el laboratorio... ¿puedes encontrar el antídoto y escapar?",
-        "precio1-2": 16000,
-        "precio3-4": 14000,
-        "precio5-6": 12000,
+        "precio12": 16000,
+        "precio34": 14000,
+        "precio56": 12000,
         "precio7": 12000
     },
     {
@@ -78,9 +78,9 @@
         "jugadores": "2 a 7 Personas",
         "dificultad": "10/10",
         "resumen": "El necesita un poco de tu magia y un sacrificio puede ser necesario... ¿quien del equipo sera?",
-        "precio1-2": 16000,
-        "precio3-4": 14000,
-        "precio5-6": 12000,
+        "precio12": 16000,
+        "precio34": 14000,
+        "precio56": 12000,
         "precio7": 12000
     }
 
