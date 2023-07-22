@@ -13,7 +13,7 @@ export const SeccionPrecios = () => {
         .then((res) => {
             setProductos(res)
         })
-    })
+    }, [])
 
 
 
@@ -33,7 +33,7 @@ export const SeccionPrecios = () => {
                     <div className="text-white text-center">
                         <h3 className="text-2xl font-bold pt-10 pb-2">1 a 2 Personas</h3>
                         <p className="pb-8">
-                            {productos[0].precio12} p/p
+                            {productos.length > 0 && productos[0].precio12} p/p
                         </p>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ export const SeccionPrecios = () => {
                     <div className="text-white text-center">
                         <h3 className="text-2xl font-bold pt-10 pb-2">3 a 4 Personas</h3>
                         <p className="pb-8">
-                            {productos[0].precio34} p/p
+                            {productos.length > 0 && productos[0].precio34} p/p
                         </p>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ export const SeccionPrecios = () => {
                     <div className="text-white text-center">
                         <h3 className="text-2xl font-bold pt-10 pb-2">5 a 6 Personas</h3>
                         <p className="pb-8">
-                            {productos[0].precio56} p/p
+                            {productos.length > 0 && productos[0].precio56} p/p
                         </p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export const SeccionPrecios = () => {
                         <h3 className="text-2xl font-bold pt-10 pb-2">El 7mo Jugador</h3>
                         <p className="pb-8">
                             Han ganado una pista <br/>
-                            {productos[0].precio7} p/p
+                            {productos.length > 0 && productos[0].precio7} p/p
                         </p>
                     </div>
                 </div>
