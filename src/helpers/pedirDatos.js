@@ -7,3 +7,22 @@ export const pedirDatos = () => {
         resolve(data)
     })
 }
+
+export const pedirItemPorId = (id) => {
+
+    return new Promise((resolve, reject) => {
+       setTimeout(()=>{
+           const item = data.find((el) => el.id === id)
+
+           if (item) {
+                resolve(item)
+           } else {
+                reject({
+                    error: 'Producto no encontrado.'
+                    
+                })
+           }
+       }, 1000)
+       
+   })
+}

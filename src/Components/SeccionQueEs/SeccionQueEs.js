@@ -5,7 +5,7 @@ export const SeccionQueEs = () => {
     return (
         <section className="bg-gray-700 pt-4">
 
-            <div className="text-white text-center p-10">
+            <div className="text-white text-center p-10 mt-16">
                 <h2 className="text-3xl font-bold">¿Que es ESC-Room?</h2>
                 <p className="text-xl font-semibold pt-4 pb-4">
                     ESC Room es un desafío en donde tus habilidades lógicas y el 

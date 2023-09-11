@@ -6,6 +6,7 @@ export const SeccionHabitaciones = () => {
 
     const [productos, setProductos] = useState([])
 
+
     // la fn pedirDatos() se encuentra en los helpers
 
     useEffect(()=> {

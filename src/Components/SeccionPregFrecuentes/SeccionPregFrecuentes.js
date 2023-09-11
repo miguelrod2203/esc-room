@@ -9,7 +9,7 @@ export const SeccionPregFrecuentes = () => {
         <section className="mx-auto px-20 bg-yellow-700 ">
 	
 			<div className="text-white text-center p-10">
-                <h2 className="text-3xl font-bold">PREGUNTAS FRECUENTES</h2>
+                <h2 className="text-3xl font-bold mt-14">PREGUNTAS FRECUENTES</h2>
                 <p className="text-xl font-semibold pb-2">
 					Por si no quedó muy claro...
                 </p>             

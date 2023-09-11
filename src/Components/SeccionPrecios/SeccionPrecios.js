@@ -20,8 +20,8 @@ export const SeccionPrecios = () => {
     return (
         <section className="bg-gray-700 pt-4">
 
-            <div className="text-white text-center p-10">
-                <h2 className="text-3xl font-bold">Precios</h2>
+            <div className="text-white text-center p-10 mt-14">
+                <h2 className="text-3xl font-bold">PRECIOS</h2>
                 <p className="text-xl font-semibold pb-2">
                     El valor varía según el número de jugadores
                 </p>             
