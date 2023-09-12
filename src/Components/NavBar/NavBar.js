@@ -19,8 +19,8 @@ export const Navbar = () => {
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
                     <div className="flex items-center">
                         <Link to="/">
-                            {/* <img className="h-10 w-auto mr-1 rounded-xl" src="../../imagenes/logo5.jpeg" alt="Logo"/> */}
-                            <p className="p-1 border-2 border-yellow-300 rounded-md text-yellow-300 hover:text-white ">ESC</p>
+                            <img className="h-10 w-auto mr-1 rounded-xl shadow-md shadow-white " src="../../imagenes/logo5.jpeg" alt="Logo"/>
+                            {/* <p className="p-1 border-2 border-yellow-300 rounded-md text-yellow-300 hover:text-white ">ESC</p> */}
                         </Link>            
                     </div>
                     <button onClick={toggleNavar} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-lg text-yellow-300 rounded-lg md:hidden hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
