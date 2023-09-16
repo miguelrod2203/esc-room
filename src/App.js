@@ -8,6 +8,7 @@ import { SeccionPrecios } from './Components/SeccionPrecios/SeccionPrecios';
 import { SeccionPregFrecuentes } from './Components/SeccionPregFrecuentes/SeccionPregFrecuentes';
 import { SeccionQueEs } from './Components/SeccionQueEs/SeccionQueEs';
 import { SeccionVerMas } from './Components/SeccionVerMas/SeccionVerMas';
+import { SeccionReserva } from './Components/SeccionReserva/SeccionReserva';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/precios" element={ <SeccionPrecios /> }/>
         <Route path="/preguntasFrecuentes" element={ <SeccionPregFrecuentes /> }/>
         <Route path="/contactos" element={ <SeccionContacto /> }/>
+        <Route path="/reserva" element={ <SeccionReserva /> }/>
         
 
       </Routes>
